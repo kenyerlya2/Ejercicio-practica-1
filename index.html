@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Favorito</title>
+</head>
+<body>
+    <h2>¿Cuál es tu animal favorito?</h2>
+    <!-- Es el primer formulario que enviará los datos a la ruta /mostrar mediante el método POST -->
+    <form action="/mostrar" method="POST">
+        <label for="animal">Nombre del animal:</label>
+        <input type="text" id="animal" name="animal" value="mariposa" required>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
